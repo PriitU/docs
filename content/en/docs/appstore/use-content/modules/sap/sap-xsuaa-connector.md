@@ -296,5 +296,5 @@ Starting from version 2.1.1, the XSUAA Connector for SAP Business Technology Pla
 
 If you want to use any custom entity for user management, you can update the **UserEntity** constant with the custom user entity name. Its default value is set to **SapAuthentication.SapUser**. The custom entity must fulfill the following criteria:
 
-* It must be a generalization of the `System.User` entity.
+* It must be a specialization of the `System.User` entity.
 * It must have attributes with the names `DisplayName` and `EmailAddress`, both of type String.
